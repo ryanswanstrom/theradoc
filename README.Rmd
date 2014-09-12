@@ -14,7 +14,7 @@ The TheraDoc Dashboard Builder is inflexible and lacking in usability. Extractin
 
 ## Setting up TheraDoc reports
 
-To create a new Dashboard view, login and select Dashboard >> New View >> Add Module >> Select Module Type (e.g. General Infection Report). This will launch the Dashboard Module Wizard which is pretty straight forward to use. Refer to the built in help docs to build and save your dashboard view.
+To create a new Dashboard View, login and select Dashboard >> New View >> Add Module >> Select Module Type (e.g. General Infection Report). This will launch the Dashboard Module Wizard which is pretty straight forward to use. Refer to the built in help docs to build and save your dashboard view.
 
 ![Dashboard Module Wizard](./S2.png)
 
