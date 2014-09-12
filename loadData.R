@@ -2,7 +2,7 @@
 # Colin A. White | Clinical Intelligence | Sept 2014
 
 # Set a working directory
-setwd("C:\\Theradoc")
+setwd("C:\\Users\\cwhite2\\Documents\\Theradoc")
 # Load all my helper functions
 source("getData.R")
 
@@ -21,12 +21,11 @@ results <- as.data.frame(rbind(cauti, clasbi, ssicolon, ssihyst))
 # Load ODBC library
 library(RODBC)
 
-# Create the connection string
+# Create the connection string for MS SQL Server
 dbhandle <- odbcDriverConnect('driver={SQL Server};
-                              server=AHDC389;
-                              database=ExecInsight;
+                              server=mydatabasehostname;
+                              database=mydatabasename;
                               trusted_connection=true')
-
 # Do the SQL insert/update
 sqlUpdate(dbhandle, results, table="theradoc" )
 

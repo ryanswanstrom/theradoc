@@ -9,7 +9,7 @@ getData <- function (view, measure) {
         # Override MS Windows Registry Proxy Settings
         Sys.unsetenv("http_proxy")
         # Identify the target FQDN
-        url  <- "http://ahdc372n2.phs-sfalls.amck.net"
+        url  <- "http://mytheradocurl.net"
         # Assign results of HTTP POST operation to Authenticate
         login <- POST(url, body=list(username="foo", password="bar"), 
                       path="theradoc/login/index.cfm" )
