@@ -6,7 +6,7 @@ date: "Thursday, September 11, 2014"
 output: html_document
 ---
 ## Synopsis
-This projects describes the steps necessary to [web scrape](http://en.wikipedia.org/wiki/Data_scraping) data from the [Theradoc Infeciton Control Applicaiton Software](http://www.theradoc.com). Specifically, we're aiming to automate the extraction, transformation and loading of TheraDoc version 4.5.5 reports and get the data into a MS SQL Server database. The end goal is to use and illustrate this data in other SSRS reports. 
+This projects describes the steps necessary to [web scrape](http://en.wikipedia.org/wiki/Data_scraping) data from the [Theradoc Infection Control Application Software](http://www.theradoc.com). Specifically, we're aiming to automate the extraction, transformation and loading of TheraDoc version 4.5.5 reports and get the data into a MS SQL Server database. The end goal is to use and illustrate this data in other SSRS reports. 
 
 The TheraDoc Dashboard Builder is inflexible and lacking in usability. Extracting data from TheraDoc requires a human to login, navigate, view then manually export an Excel file. There is no API to call. The following is a detailed description how to automate this with the R programming language.
 
